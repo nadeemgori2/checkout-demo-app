@@ -1,0 +1,54 @@
+# Build output
+dist/
+dist-ssr/
+www/
+loader/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+UserInterfaceState.xcuserstate
+
+# IDE/editor settings
+.idea/
+.vscode/
+!.vscode/extensions.json
+.sublime-project
+.sublime-workspace
+.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sw[mnpcod]
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Env
+.env
+.env.*
+
+# Stencil cache
+.stencil/
+.sass-cache/
+.versions/
+
+# Logs & temp files
+logs
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+
+# Misc
+*~
+*.local

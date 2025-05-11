@@ -1,0 +1,17 @@
+.checkout-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  max-width: 600px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* For medium screens and above (md:min-h-[625px]) */
+@media (min-width: 768px) {
+  .checkout-container {
+    min-height: 625px;
+  }
+}

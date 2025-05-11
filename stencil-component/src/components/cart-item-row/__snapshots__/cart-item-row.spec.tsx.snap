@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart-item-row renders with given item data 1`] = `
+<cart-item-row>
+  <template shadowrootmode="open">
+    <li class="flex flex-wrap gap-4 items-start justify-between min-h-[75px] py-2 sm:flex-nowrap sm:items-center">
+      <div class="flex flex-1 gap-4 items-start min-w-0">
+        <img alt="Test Headphones" class="h-13 object-contain rounded-full w-13" src="https://example.com/image.png">
+        <div class="flex-1 min-w-0">
+          <a class="block break-words font-medium hover:underline text-[0.95rem] text-[var(--text-primary)] underline whitespace-normal" href="Test Headphones">
+            Test Headphones
+          </a>
+          <div class="text-gray-500 text-xs">
+            SAR 250.00
+          </div>
+          <div class="flex justify-between mt-1 sm:hidden text-sm">
+            <span class="text-center">
+              2 pcs
+            </span>
+            <span class="font-semibold text-right">
+              SAR 250.00
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="hidden shrink-0 sm:block text-center text-sm w-10">
+        2
+      </div>
+      <div class="font-semibold hidden shrink-0 sm:block text-right text-sm w-24">
+        SAR 250.00
+      </div>
+    </li>
+  </template>
+</cart-item-row>
+`;

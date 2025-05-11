@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salla Checkout Demo</title>
+
+    <!-- StencilJS component bundles -->
+    <script type="module" src="/build/salla-asnmt-app.esm.js"></script>
+    <script nomodule src="/build/salla-asnmt-app.js"></script>
+
+    <!-- Tailwind or Global Styles (if used directly here) -->
+    <link rel="stylesheet" href="/build/app.css" />
+  </head>
+
+  <body class="bg-[var(--background-light)] min-h-screen">
+    <main class="max-w-2xl w-full mx-auto">
+      <!-- Render components one at a time via JS/router logic if needed -->
+      <cart-items></cart-items>
+    </main>
+  </body>
+</html>

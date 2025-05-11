@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif; /* Optional: ensure consistent font */
+  background-color: #eeeeee; /* Optional: match layout bg */
+}
+
+/* Ensure root div or #root also stretches full height */
+#root {
+  height: 100%;
+}
