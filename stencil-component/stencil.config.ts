@@ -2,7 +2,7 @@ import { Config } from '@stencil/core';
 import tailwind, { tailwindHMR } from 'stencil-tailwind-plugin';
 
 export const config: Config = {
-  namespace: 'salla-asnmt-app',
+  namespace: 'checkout-asnmt-app',
 
   // Global styles including Tailwind directives and custom CSS variables
   globalStyle: 'src/global/app.css',

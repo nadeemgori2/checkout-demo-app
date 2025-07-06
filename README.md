@@ -1,6 +1,6 @@
 # Web Component Challenge – Nadeem Gori
 
-This repository contains the completed coding challenge for Salla, showcasing a custom Web Component and a demo integration in a React application.
+This repository showcasing a custom Web Component and a demo integration in a React application.
 
 ---
 
@@ -17,15 +17,7 @@ This repository contains the completed coding challenge for Salla, showcasing a 
 To clone, build, and run both apps locally:
 
 ```bash
-git clone https://github.com/SallaChallenges/WebComponent-Challenge-nadeemgori2-5685.git
-cd WebComponent-Challenge-nadeemgori2-5685
-git checkout development
-cd stencil-component
-npm install
-npm run build
-cd ../react-demo-app
-npm install
-npm run dev
+git clone https://github.com/nadeemgori2/checkout-demo-app.git
 ```
 
 ---
@@ -84,7 +76,6 @@ Runs at: [http://localhost:5173](http://localhost:5173)
 
 - Each project is self-contained and runs independently.
 - Justifications and technical decisions are commented within the respective code.
-- If you have any questions, feel free to schedule a meeting via the provided Salla link.
 
 ---
 

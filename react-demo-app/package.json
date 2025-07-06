@@ -1,5 +1,5 @@
 {
-  "name": "salla-react-demo",
+  "name": "checkout-react-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,7 @@
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.0",
-    "salla-asnmt-app": "file:../stencil-component"
+    "checkout-asnmt-app": "file:../stencil-component"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

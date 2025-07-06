@@ -1,4 +1,4 @@
-# Salla Checkout App (React + StencilJS)
+# Checkout App (React + StencilJS)
 
 This repository contains the **React frontend integration** for a checkout workflow built using **StencilJS web components**. It demonstrates a clean, modular, and modern frontend setup that combines React (with Redux Toolkit) and reusable Web Components (built with Stencil).
 
@@ -19,8 +19,8 @@ This repository contains the **React frontend integration** for a checkout workf
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/SallaChallenges/WebComponent-Challenge-nadeemgori2-5685.git
-cd salla-checkout-app
+git clone https://github.com/nadeemgori2/checkout-demo-app.git
+cd react-demo-app
 npm install
 ```
 
@@ -51,7 +51,7 @@ Vite will compile and output static assets to the `dist/` folder.
 If testing alongside the local Stencil component repo:
 
 ```bash
-cd ../salla-asnmt-app
+cd ../checkout-asnmt-app
 npm install
 npm run test
 npm run start
@@ -80,7 +80,7 @@ Stencil events (e.g. `proceedToShipping`) are handled via `ref.current.addEventL
 ## 🤝 Integration Notes
 
 ```ts
-import { defineCustomElements } from 'salla-asnmt-app/loader';
+import { defineCustomElements } from 'checkout-asnmt-app/loader';
 defineCustomElements(); // Initializes the Stencil components
 ```
 

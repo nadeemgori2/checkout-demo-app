@@ -1,8 +1,8 @@
 [![Built With Stencil](https://img.shields.io/badge/-Built%20With%20Stencil-16161d.svg?style=flat-square&logo=Stencil&logoColor=white&colorA=16161d)](https://stenciljs.com)
 
-# 🛒 Salla Checkout Web Components
+# 🛒 Checkout Web Components
 
-> A reusable, framework-agnostic **Web Component Library** built with **StencilJS** and **TailwindCSS** for the Salla coding challenge.
+> A reusable, framework-agnostic **Web Component Library** built with **StencilJS** and **TailwindCSS** for the coding challenge.
 
 This project showcases reusable cart-related UI components that integrate smoothly into various frontend frameworks like **React**, **Vue**, or **vanilla JS**.
 
@@ -46,7 +46,7 @@ stencil-component/
 Clone & install dependencies:
 
 ```bash
-git clone https://github.com/SallaChallenges/WebComponent-Challenge-nadeemgori2-5685.git
+git clone https://github.com/nadeemgori2/checkout-demo-app.git
 cd stencil-component
 npm install
 npm start
@@ -66,7 +66,7 @@ Usage in React App:
 Add dependencies: package.json
 
 ```
-"salla-asnmt-app": "file:../salla-asnmt-app"
+"checkout-asnmt-app": "file:../checkout-asnmt-app"
 
 ```
 Stencil components are auto-registered using: main.tsx
@@ -90,7 +90,7 @@ path.resolve(__dirname, "../stencil-component")
 Usage in vanilla HTML:
 
 ```html
-<script type="module" src="/build/salla-asnmt-app.esm.js"></script>
+<script type="module" src="/build/checkout-asnmt-app.esm.js"></script>
 <cart-items></cart-items>
 ```
 
